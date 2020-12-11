@@ -1,4 +1,6 @@
-const input = require('./2-input')
+const input = require('./input/2')
+
+// part 1
 
 let ans1 = [];
 
@@ -11,7 +13,9 @@ for (let i = 0; i < input.length; i++) {
     }
 }
 
-console.log(ans.length)
+console.log(ans1.length)
+
+// part 2
 
 let ans2 = [];
 
@@ -22,7 +26,7 @@ for (let i = 0; i < input.length; i++) {
     let matches = 0
 
     if (input[i][3][pos1 - 1] === input[i][2]) {
-matches++
+        matches++
     }
 
     if (input[i][3][pos2 - 1] === input[i][2]) {

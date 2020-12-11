@@ -1,4 +1,6 @@
-const input = require('./4-input')
+const input = require('./input/4')
+
+// part 1
 
 const requiredFields = ['byr', 'iyr', 'eyr', 'hgt', 'hcl', 'ecl', 'pid']
 
@@ -18,6 +20,8 @@ for (const passport of input) {
 }
 
 console.log(validPassports)
+
+// part 2
 
 let veryValidPassports = 0;
 

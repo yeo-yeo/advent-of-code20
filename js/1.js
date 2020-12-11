@@ -1,4 +1,6 @@
-const input = require('./1-input.js')
+const input = require('./input/1')
+
+// part 1
 
 let ans1;
 
@@ -11,6 +13,8 @@ for (let i = 0; i < input.length; i++) {
 }
 console.log(input[ans1[0]], input[ans1[1]])
 console.log(input[ans1[0]] * input[ans1[1]])
+
+// part 2
 
 let ans2;
 

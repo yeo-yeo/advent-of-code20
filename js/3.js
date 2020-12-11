@@ -1,4 +1,6 @@
-const input = require('./3-input')
+const input = require('./input/3')
+
+// part 1
 
 const singleWidth = input[0].length
 
@@ -27,6 +29,8 @@ const adjustX = (x) => {
 
 const ans1 = move(3,1)
 console.log(ans1)
+
+// part 2
 
 const a = move(1,1)
 const b = move(3,1)

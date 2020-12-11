@@ -1,4 +1,6 @@
-const input = require('./7-input')
+const input = require('./input/7')
+
+// part 1
 
 const outerBags = [];
 
@@ -28,6 +30,7 @@ while(newAnsLength > prevAnsLength) {
 
 console.log(outerBags.length)
 
+// part 2
 
 const innerBags = [];
 
